@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 const On = () => {
+  
     const [text, setText] = useState(true) /**
      * cree una const para que tiene text y setText donde el set cambia el estado de la variable text
      */
@@ -16,3 +17,5 @@ const On = () => {
   )
 }
 export default On
+
+
