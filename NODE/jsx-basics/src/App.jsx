@@ -2,6 +2,7 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './App.css'
+import On from './components/On';
 
 const App= () => {
 
@@ -20,8 +21,9 @@ const App= () => {
      )}
     {datos.map((dato, index) => (
   <p key={index}>{dato}</p>
+      
 ))}
-<button></button>
+<On/>
     </>
   )
 }; 
