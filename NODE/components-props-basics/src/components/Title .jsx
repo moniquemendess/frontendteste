@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 const Title= ({nombre})=> {
       return (
-    <div>
+    
         <p>Hello {nombre}</p>
-         </div>
+        
   )
 }
 Title.propTypes = {
