@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 
 const Paragraph = ({h2Texto}) => {
   return (
@@ -6,7 +5,6 @@ const Paragraph = ({h2Texto}) => {
   )
  
 }
-Paragraph.propTypes = {
-    h2Texto: PropTypes.string.isRequired 
-};
+
+
 export default Paragraph; 

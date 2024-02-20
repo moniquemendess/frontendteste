@@ -5,6 +5,7 @@ import Title from "./components/Title";
 import SubTittle from "./components/SubTitle";
 import Image from "./components/Image";
 import Paragraph from "./components/Paragraph.jsx";
+import Header from "./components/Header.jsx";
 import './App.css'
 
 const App = ()=> {
@@ -15,7 +16,9 @@ const App = ()=> {
 
   return (
     <>
+    <Header>
     <Title nombre={nombre}/>
+    </Header>
     <SubTittle subtitle= {subTitle1}/>
     <SubTittle subtitle= {subTitle2}/>{/* Segunda vez usando SubTitle Y tienes que teneer el mismo nombre subtitle donde fue definido en h2*/}
     <Image/>
