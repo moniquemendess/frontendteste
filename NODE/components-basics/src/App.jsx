@@ -1,7 +1,9 @@
 
 import './App.css'
-import {Title, SubTitle, Image, Paragraph} from './components'
-
+import Title from "./components/Title";
+import SubTitle from "./components/SubTitle";
+import Image from "./components/Image";
+import Paragraph from "./components/Paragraph";
 
 const App= () => {
 

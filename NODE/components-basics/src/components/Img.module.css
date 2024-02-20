@@ -1,0 +1,6 @@
+.image {
+  width: 10px; /* Define a largura da imagem como 50 pixels */
+  height: auto; /* Mantém a proporção da imagem, ajustando a altura automaticamente */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra à imagem */
+}
+/** Edita, no esta cambiando el tamaño de la foto*/
