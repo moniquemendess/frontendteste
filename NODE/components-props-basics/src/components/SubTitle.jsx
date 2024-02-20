@@ -1,11 +1,7 @@
-import PropTypes from 'prop-types';
 
-const SubTitle= ({subtitle}) => {
+
+export const SubTittle= ({subtittle}) => {
   return (
-    <h2>{subtitle }</h2>
+    <h2>{subtittle}</h2>
   )
 }
-SubTitle.propTypes = {
-    subtitle: PropTypes.string.isRequired 
-}
-export default SubTitle
