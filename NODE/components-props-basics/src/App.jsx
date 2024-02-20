@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import Title from "./components/Title";
 import SubTittle from "./components/SubTitle";
+import Image from "./components/Image"
 import './App.css'
 
 const App = ()=> {
@@ -13,6 +14,7 @@ const App = ()=> {
     <>
     <Title nombre={nombre}/>
     <SubTittle subtitle= {subtitle}/>
+    <Image/>
     </>
   )
 }
