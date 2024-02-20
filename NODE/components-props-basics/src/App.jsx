@@ -4,19 +4,22 @@
 import Title from "./components/Title";
 import SubTittle from "./components/SubTitle";
 import Image from "./components/Image";
+import Paragraph from "./components/Paragraph.jsx";
 import './App.css'
 
 const App = ()=> {
   const nombre = "Haciendo el teste con props";
-  const subtitle1 = "Haciendo el segundo teste con props";
-  const subtitle2 = "Soy mas uno Teste Mona";
+  const subTitle1 = "Haciendo el segundo teste con props";
+  const subTitle2 = "Soy mas uno Teste Mona";
+  const paragraphH2 = "Soy un parafo h2";
 
   return (
     <>
     <Title nombre={nombre}/>
-    <SubTittle subtitle= {subtitle1}/>
-    <SubTittle subtitle= {subtitle2}/>{/* Segunda vez usando SubTitle */}
+    <SubTittle subtitle= {subTitle1}/>
+    <SubTittle subtitle= {subTitle2}/>{/* Segunda vez usando SubTitle Y tienes que teneer el mismo nombre subtitle donde fue definido en h2*/}
     <Image/>
+    <Paragraph h2Texto= {paragraphH2}/>
     </>
   )
 }
