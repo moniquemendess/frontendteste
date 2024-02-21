@@ -5,4 +5,3 @@ export const Image = () => {
     <img src={image2024 } alt="Image 2024" width={200} height={200}/>
   );
 }
-
