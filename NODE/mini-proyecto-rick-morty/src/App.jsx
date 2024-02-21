@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+
 import './App.css'
 useState
 
@@ -29,12 +30,12 @@ const App = () =>{
    * condicional si el status === es Alive que renderize solos ALive
    */
   return (
-    <>
-    
+   
+    <div className='container'>
      {characterList.map((character) => (
        character.status === 'Alive' && (
 
-        <div key={character.id}>
+        <div key={character.id} className='character'>
  
             <h2>Name:{character.name}</h2>
             <h2>status: {character.status}</h2>
@@ -42,7 +43,8 @@ const App = () =>{
         </div>
          ) ))
        }
-     </>
+       </div>
+    
    );
    };
 
