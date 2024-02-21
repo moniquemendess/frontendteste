@@ -1,8 +1,8 @@
-import { Children } from "react"
 
 
-export const Main = ()=> {
+
+export const Main = ({children})=> {
   return (
-    <main>{Children}</main>
+    <main>{children}</main>
   )
 }
