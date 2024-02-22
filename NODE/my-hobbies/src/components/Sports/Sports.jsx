@@ -23,9 +23,6 @@ export const Sports = () => {
 
        <strong>favorite Team:</strong>{sport.favoriteTeam}<br />
        <br />
-
-
-
         </li>
     ))}
 
