@@ -1,6 +1,7 @@
 /**Passos:
  * Destruturing del Hobbies para extrair el objecto languages
  * acendiendo a los obj con . + propriedad
+ * 
  */
 
 import { HOBBIES } from "../../Hobbies/Hobbies"

@@ -1,7 +1,8 @@
 /**
  * Haciemos el destruturing con el Hobbies
- * Map para recorrer cada elemente del array con ul + li
+ * Map para recorrer cada elementos del obj array con ul + li
  * <br /> es un salto de linea para que la pagina a lista tenga mas visibilidade 
+ * 
  */
 
 import { HOBBIES } from "../../Hobbies/Hobbies"
