@@ -14,13 +14,13 @@ export const Read = () => {
   return (
     <>
     <div>
-        <h3>title:{read.title}</h3>
+        <h2>{read.title}</h2>
         <p>Author Name: {read.authorName}</p>
         <p>Author Surname: {read.authorSurname}</p>
         <p>Genre: {read.genre}</p>
         <p>Date Of Publication: {read.dateOfPublication}</p>
         <p>Author Birth Date: {read.authorBirthDate}</p>
-        <p>My Books:</p>
+        <h2>My Books:</h2>
         {read.bookImage && <img src={read.bookImage} alt="Portada del libro"/>}
  
     </div>
