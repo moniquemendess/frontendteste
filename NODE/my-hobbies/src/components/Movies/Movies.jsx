@@ -12,7 +12,7 @@ const {movies}= HOBBIES;
         {movies.map((movie, index)=>(
             <li key= {index}>
        <strong>{movie.name}</strong> ({movie.type}): {movie.genre} - Voto: {movie.vote}
-
+  
             </li>
         ))}
         </ul>
