@@ -6,7 +6,7 @@ export const HOBBIES = {
     genre: "Mujer",
     dateOfPublication: "22/02/2024",
     authorBirthDate: "26/07/1996",
-    bookImage: "NODE/my-hobbies/public/No-Me-Hagas-Pensar-Actualizacion.jpg",
+    bookImage: "/No-Me-Hagas-Pensar-Actualizacion.jpg",
     otherBooks: [
       {
         info: "Clean Code",

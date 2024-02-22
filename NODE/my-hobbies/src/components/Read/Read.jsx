@@ -21,7 +21,7 @@ export const Read = () => {
         <p>Date Of Publication: {read.dateOfPublication}</p>
         <p>Author Birth Date: {read.authorBirthDate}</p>
         <p>My Books:</p>
-        {read.bookImage && <image src={read.bookImage} alt="Portada del libro"/>}
+        {read.bookImage && <img src={read.bookImage} alt="Portada del libro"/>}
  
     </div>
     <ul>
