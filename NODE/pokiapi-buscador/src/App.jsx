@@ -10,7 +10,7 @@ const App = () =>{
    <>
   <Header/>
   <main>
-    
+  <Outlet />
   </main>
   <Footer/>
    </>
