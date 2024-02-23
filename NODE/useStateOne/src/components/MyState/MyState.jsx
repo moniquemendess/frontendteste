@@ -10,7 +10,7 @@
 import { useState } from "react"
 
 export const MyState = ()=> {
-    const [myName, setMyName] = useState("Ziggy Stardust")
+    const [myName, setMyName] = useState("Monique Mendes Santos")
   return (
     <>
     <h1>{myName}</h1>
