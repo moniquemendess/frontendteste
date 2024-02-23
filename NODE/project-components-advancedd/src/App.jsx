@@ -1,8 +1,9 @@
 
 
-import { CharacterList } from './CharacterList/CharacterList';
+
 import { Footer, Header, Image, ItemList, SubTittle, Tittle } from './components';
 import './App.css'; 
+import { CharacterList } from './components/CharacterList/CharacterList';
 
 
 const App = () =>{
